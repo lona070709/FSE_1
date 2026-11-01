@@ -14,10 +14,11 @@ int main() {
     p2.celebrate_birthday();
     team.play_match();
 
-    Person* people[] = {&p1, &p2, &coach};
-    for (Person* person : people) {
-        person->print_info();
-    }
+    p1.print_info();
+    p2.print_info();
+    coach.print_info();
+
+    team.print_info();
     team.print_info();
     return 0;
 }
