@@ -1,15 +1,11 @@
 #include <iostream>
 #include "Person.h"
 
-Person::Person(std::string person_name, int person_age) {
-    name = person_name;
-    age = person_age;
-}
+void Person::set_name(std::string new_name) { name = new_name; }
+void Person::set_age(int new_age) { age = new_age; }
+std::string Person::get_name() const { return name; }
+int Person::get_age() const { return age; }
 
-void Person::celebrate_birthday() { age++; }
-
-std::string Person::get_name() { return name; }
-
-void Person::print_info() {
-    std::cout << "Person: " << name << " | Age: " << age << std::endl;
+void Person::print_info() const {
+    std::cout << "Person: " << name << ", age " << age << std::endl;
 }

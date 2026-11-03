@@ -1,24 +1,18 @@
-#include "Player.h"
 #include "Coach.h"
-#include "FootballTeam.h"
+#include "Player.h"
 
 int main() {
-    FootballTeam team("Dynamo", 0);
-    Player p1("Ivan", 20, 10);
-    Player p2("Oleh", 22, 7);
-    Coach coach("Petro", 45, 15);
+    Coach c;
+    c.set_name("Ivan");
+    c.set_age(40);
+    c.set_experience(10);
+    c.print_info();
 
-    p1.join_team(team);
-    p2.join_team(team);
-    p1.score_goal(team);
-    p2.celebrate_birthday();
-    team.play_match();
+    Player p;
+    p.set_name("Oleg");
+    p.set_age(22);
+    p.set_number(9);
+    p.print_info();
 
-    p1.print_info();
-    p2.print_info();
-    coach.print_info();
-
-    team.print_info();
-    team.print_info();
     return 0;
 }

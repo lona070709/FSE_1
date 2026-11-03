@@ -4,9 +4,13 @@
 
 class Coach : public Person {
 private:
-    int experience;
+    int experience = 0;
+
 public:
-    Coach(std::string coach_name, int coach_age, int coach_experience);
-    void print_info() override;
+    void set_experience(int new_experience);
+    int get_experience() const;
+
+    void print_info() const override;
 };
-#endif 
+
+#endif

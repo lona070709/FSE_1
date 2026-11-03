@@ -3,13 +3,17 @@
 #include <string>
 
 class Person {
-protected:
+private:
     std::string name;
-    int age;
+    int age = 0;
+
 public:
-    Person(std::string person_name, int person_age);
-    void celebrate_birthday();
-    std::string get_name();
-    virtual void print_info();
+    void set_name(std::string new_name);
+    void set_age(int new_age);
+    std::string get_name() const;
+    int get_age() const;
+
+    virtual void print_info() const;
 };
+
 #endif
