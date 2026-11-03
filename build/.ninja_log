@@ -1,8 +1,0 @@
-# ninja log v7
-6	406	8153344357727728	lib/CMakeFiles/oop_ft_lib.dir/src/Person.cpp.obj	a1f03b6b7697a3be
-16	430	8153344357838065	lib/CMakeFiles/oop_ft_lib.dir/src/Coach.cpp.obj	9c6b2fd65939de40
-11	449	8153344357780022	lib/CMakeFiles/oop_ft_lib.dir/src/Player.cpp.obj	bb7a9fbc8ff2cc5d
-26	450	8153344357937004	CMakeFiles/oop_ft.dir/src/main.cpp.obj	e2790a68236da18c
-21	673	8153344357884403	lib/CMakeFiles/oop_ft_lib.dir/src/FootballTeam.cpp.obj	f17902c7fbfcd5d8
-673	754	8153344364405172	lib/liboop_ft_lib.a	520bb62dc389d341
-754	867	8153344365220653	oop_ft.exe	2260850959c7aadf
