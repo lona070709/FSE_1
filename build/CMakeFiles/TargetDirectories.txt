@@ -1,0 +1,6 @@
+C:/Users/User/OneDrive/Desktop/oop_ft/build/CMakeFiles/oop_ft.dir
+C:/Users/User/OneDrive/Desktop/oop_ft/build/CMakeFiles/edit_cache.dir
+C:/Users/User/OneDrive/Desktop/oop_ft/build/CMakeFiles/rebuild_cache.dir
+C:/Users/User/OneDrive/Desktop/oop_ft/build/lib/CMakeFiles/oop_ft_lib.dir
+C:/Users/User/OneDrive/Desktop/oop_ft/build/lib/CMakeFiles/edit_cache.dir
+C:/Users/User/OneDrive/Desktop/oop_ft/build/lib/CMakeFiles/rebuild_cache.dir
